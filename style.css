@@ -1,71 +1,75 @@
 /* CSS code */
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  h1 {
-    margin-top: 50px;
-  }
-  
-  #seating-chart {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    color: #333;
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 500px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
-    table {
-    margin: 0 auto;
-    border-collapse: collapse;
+h1 {
+  margin-top: 50px;
+  font-size: 48px;
+  text-shadow: 2px 2px #888888;
 }
 
-    td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    cursor: pointer;
+#seating-chart {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 500px;
 }
 
-    td.available {
-    background-color: #00cc00;
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
 }
 
-    td.selected {
-    background-color: #3366ff;
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
 }
 
-    td.blocked {
-    background-color: #cccccc;
-    cursor: not-allowed;
-}
-  iframe {
-    margin-top: 30px;
-  }
-
-  .video-wrapper {
-    width: 640px;
-    height: 360px;
-    margin: 0 auto;
-    background-color: #000;
-    padding: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  .video-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+td.available {
+  background-color: #00cc00;
 }
 
-  .video-wrapper a {
-    color: #fff;
-  }
+td.selected {
+  background-color: #3366ff;
+}
+
+td.blocked {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+iframe {
+  width: 640px;
+  height: 360px;
+  border: none;
+}
+
+a {
+  color: #3366ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
