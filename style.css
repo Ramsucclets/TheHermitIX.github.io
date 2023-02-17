@@ -57,11 +57,14 @@ body {
     background-color: #000;
     padding: 20px;
     border: 1px solid #ccc;
+  }
+  
+  .video-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-  }
+}
 
   .video-wrapper a {
     color: #fff;
