@@ -12,5 +12,5 @@ document.getElementById('discord-link').addEventListener('mouseout', function() 
 });
 
 document.getElementById('discord-button').addEventListener('click', function() {
-    window.location.href = 'YOUR_DISCORD_INVITE_LINK';
+    window.location.href = 'https://discord.gg/kAuTCVa5Bc';
 });
