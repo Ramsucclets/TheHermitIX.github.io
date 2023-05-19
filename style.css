@@ -7,15 +7,16 @@ body {
     background: linear-gradient(to right, #ff9966, #ff5e62);
     font-family: Arial, sans-serif;
 }
-.discord-link {
+.discord-button {
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
-    text-decoration: none;
+    background: transparent;
     border: 2px solid #fff;
     padding: 10px 20px;
     transition: background 0.5s;
+    cursor: pointer;
 }
-.discord-link:hover {
+.discord-button:hover {
     background: rgba(255, 255, 255, 0.1);
 }
